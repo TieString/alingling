@@ -135,15 +135,3 @@ body,html{
     padding: 20px;
 
 }
-
-
-
-@media(max-width: 500px){
-
-    .pimg1, .pimg2, .pimg3, .pimg4{
-
-        background-attachment: scroll;
-
-    }
-
-}
