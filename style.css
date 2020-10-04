@@ -1,15 +1,3 @@
-#sun{
-    width: 3em;
-    height: 3em;
-    background-color: #f1f09efa;
-    border-radius: 50%;
-    box-shadow: rgba(255, 255, 0, 0.2) 0 0 0 10px;
-    
-    float: right;
-    position: relative;
-    top: 1em;
-    right: 2em;
-}
 #bar1{
     height: 1em;
     background-color: #0099ff;
