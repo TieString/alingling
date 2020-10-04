@@ -1,48 +1,56 @@
 #sun{
-    height: 1em;
-    background-color: tomato;
+    width: 3em;
+    height: 3em;
+    background-color: #FEED44;
+    border-radius: 50%;
+    box-shadow: rgba(255, 255, 0, 0.2) 0 0 0 10px;
+    
+    float: right;
+    position: relative;
+    top: 1em;
+    right: 2em;
 }
 #bar1{
     height: 1em;
-    background-color: #09a2fa;
+    background-color: #0099ff;
 }
 #bar2{
     height: 1em;
-    background-color: #2cb2ff;
+    background-color: #28a8fd;
 }
 #bar3{
     height: 1em;
-    background-color: #58c2ff;
+    background-color: #47b6ff;
 }
 #bar4{
     height: 1em;
-    background-color: #8effff;
+    background-color: #58bcff;
 }
 #bar5{
     height: 1em;
-    background-color: #93ffff;
+    background-color: #75c8ff;
 }
 #bar6{
     height: 1em;
-    background-color: #99ffff;
+    background-color: #90d3ff;
 }
 #bar7{
     height: 1em;
-    background-color: #9effff;
+    background-color: #a0d9ff;
 }
 #bar8{
     height: 1em;
-    background-color: #a3ffff;
+    background-color: #aeddfc;
 }
 #bar9{
     height: 1em;
-    background-color: #a8ffff;
+    background-color: #b7e1fd;
 }
 #bar10{
     height: 1em;
-    background-color: #adffff;
+    background-color: #c1e6ff;
 }
 #bar11{
     height: 1em;
-    background-color: #b2ffff;
+    background-color: #cfecff;
 }
