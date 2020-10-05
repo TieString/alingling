@@ -1,3 +1,4 @@
+/* 渐变天空样式 */
 #bar1{
     height: 1em;
     background-color: #0099ff;
@@ -118,6 +119,7 @@
     height: 1em;
     background-color: #f7fbffc4;
 }
+/* 渐变草地样式 */
 #bar31{
     height: 1em;
     background-color: #f7fcf9cb;
@@ -181,4 +183,51 @@
 #bar46{
     height: 1em;
     background-color: #529c60cb;
+}
+/* 设置红色花朵样式 */
+.redFlower{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #A72226;
+    position: relative;
+    float: left;
+}
+/* 设置粉色花朵样式 */
+.pinkFlower{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #D04E5B;
+    position: relative;
+    float: left;
+}
+/* 设置花朵各自位置 */
+#flower1{
+    top: 600px;
+    left: 40px;
+}
+#flower2{
+    top: 680px;
+    left: 60px;
+}
+#flower3{
+    top: 700px;
+    left: 190px;
+}
+#flower4{
+    top: 698px;
+    left: 192px;
+}
+#flower5{
+    top: 580px;
+    left: 200px;
+}
+#flower6{
+    top: 600px;
+    left: 250px;
+}
+#flower7{
+    top: 600px;
+    left: 40px;
 }
