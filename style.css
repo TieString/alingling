@@ -186,11 +186,12 @@
 }
 /* 设置箭头样式 */
 #arrow{
-    width: 7px;
-    height: 7px;
-    border-top: 2px solid #ffffff;
-    border-right: 2px solid #ffffff;
-    transform: rotate(45deg);
+    font-size: 50px;
+    color: rgb(100, 98, 98);
+    float: right;
+    position: absolute;
+    right: 45px;
+    bottom: 10px;
 }
 /* 设置红色花朵样式 */
 .redFlower{
