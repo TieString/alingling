@@ -184,6 +184,14 @@
     height: 1em;
     background-color: #529c60e5;
 }
+/* 设置箭头样式 */
+#arrow{
+    width: 7px;
+    height: 7px;
+    border-top: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    transform: rotate(45deg);
+}
 /* 设置红色花朵样式 */
 .redFlower{
     width: 8px;
