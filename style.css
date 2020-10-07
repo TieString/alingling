@@ -1,3 +1,12 @@
+#words{
+    font-size: 28px;
+    color: #5b5d5f;
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 /* 渐变天空样式 */
 #bar1{
     height: 1em;
