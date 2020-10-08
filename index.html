@@ -10,6 +10,7 @@
         window.onload=function(){
             // 获取箭头
             var arrow = document.getElementById("arrow");
+            var words = document.getElementById("words");
             arrow.onclick=function(){
                 bar1.id = "bar_1";
                 bar2.id = "bar_2";
@@ -57,6 +58,9 @@
                 bar44.id = "bar_44";
                 bar45.id = "bar_45";
                 bar46.id = "bar_46";
+                // 改变文字
+                words.innerHTML = "是你。";
+                words.id = "word"
             };
         };
     </script>
