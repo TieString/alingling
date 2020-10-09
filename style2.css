@@ -656,7 +656,7 @@
 /* 星星变大 */
 #star_0{
     position: absolute;
-    left: 10px;
+    left: 5%;
     top: 10px;
     animation: star_0 3s;
     -webkit-animation: star_0 3s;
@@ -671,7 +671,7 @@
 }
 #star_1{
     position: absolute;
-    left: 50px;
+    left: 19%;
     top: 100px;
     animation: star_0 5s;
     -webkit-animation: star_0 5s;
@@ -679,7 +679,7 @@
 
 #star_2{
     position: absolute;
-    left: 140px;
+    left: 38%;
     top: 30px;
     animation: star_0 5s;
     -webkit-animation: star_0 5s;
@@ -687,24 +687,24 @@
 
 #star_3{
     position: absolute;
-    left: 230px;
-    top: 50px;
+    left: 59%;
+    top: 68px;
     animation: star_0 5s;
     -webkit-animation: star_0 5s;
 }
 
 #star_4{
     position: absolute;
-    left: 350px;
-    top: 90px;
+    left: 75%;
+    top: 19px;
     animation: star_0 5s;
     -webkit-animation: star_0 5s;
 }
 
 #star_5{
     position: absolute;
-    left: 430px;
-    top: 15px;
+    left: 89%;
+    top: 59px;
     animation: star_0 5s;
     -webkit-animation: star_0 5s;
 }
