@@ -86,35 +86,43 @@
                 star8.id = "star_8";
                 star9.id = "star_9";
             };
+            var flag = 1;
             star0.onclick = function(){
                 star0.src = "./star_yellow.png";
+                if(flag == 3){
+                    alert("我有点喜欢你，");
+                    alert("你可以分一点喜欢给我吗？")
+                }
             };
             star1.onclick = function(){
                 star1.src = "./star_yellow.png";
+                flag = 0;
             };
             star2.onclick = function(){
                 star2.src = "./star_yellow.png";
+                if(flag == 0){
+
+                }
+                else if(flag == 2){
+                    flag++;
+                }
             };
             star3.onclick = function(){
                 star3.src = "./star_yellow.png";
+                flag = 0;
             };
             star4.onclick = function(){
                 star4.src = "./star_yellow.png";
+                flag = 0;
             };
             star5.onclick = function(){
                 star5.src = "./star_yellow.png";
-            };
-            star6.onclick = function(){
-                star6.src = "./star_yellow.png";
-            };
-            star7.onclick = function(){
-                star7.src = "./star_yellow.png";
-            };
-            star8.onclick = function(){
-                star8.src = "./star_yellow.png";
-            };
-            star9.onclick = function(){
-                star9.src = "./star_yellow.png";
+                if(flag == 0){
+
+                }
+                else if(flag == 1){
+                    flag++;
+                }
             };
         };
     </script>
