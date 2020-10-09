@@ -249,3 +249,10 @@
     top: 600px;
     left: 40px;
 }
+/* 星星样式 */
+#star1{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    z-index: -1;
+}
