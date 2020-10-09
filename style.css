@@ -143,7 +143,7 @@
 }
 #bar34{
     height: 1em;
-    background-color: #f0fff3;
+    background-color: #f6fff8;
 }
 #bar35{
     height: 1em;
@@ -250,9 +250,63 @@
     left: 40px;
 }
 /* 星星样式 */
-#star1{
+#star0{
+    height: 0px;
     position: absolute;
     left: 5%;
     top: 5%;
-    z-index: -1;
+}
+#star1{
+    height: 0px;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+}
+#star2{
+    height: 0px;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+#star3{
+    height: 0px;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+#star4{
+    height: 0px;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+#star5{
+    height: 0px;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+#star6{
+    height: 0px;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+#star7{
+    height: 0px;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+#star8{
+    height: 0px;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+#star9{
+    height: 0px;
+    position: absolute;
+    left: 5%;
+    top: 5%;
 }

@@ -11,7 +11,16 @@
             // 获取箭头
             var arrow = document.getElementById("arrow");
             var words = document.getElementById("words");
+            var star0 = document.getElementById("star0");
             var star1 = document.getElementById("star1");
+            var star2 = document.getElementById("star2");
+            var star3 = document.getElementById("star3");
+            var star4 = document.getElementById("star4");
+            var star5 = document.getElementById("star5");
+            var star6 = document.getElementById("star6");
+            var star7 = document.getElementById("star7");
+            var star8 = document.getElementById("star8");
+            var star9 = document.getElementById("star9");
             arrow.onclick = function(){
                 bar1.id = "bar_1";
                 bar2.id = "bar_2";
@@ -60,12 +69,52 @@
                 bar45.id = "bar_45";
                 bar46.id = "bar_46";
                 // 改变文字
-                // words.innerHTML = "是你。";
+                words.innerHTML = "是你。";
                 // 更改样式
                 words.id = "word";
+                // 箭头消失
+                arrow.innerHTML = "";
+                // 星星出现
+                star0.id = "star_0";
+                star1.id = "star_1";
+                star2.id = "star_2";
+                star3.id = "star_3";
+                star4.id = "star_4";
+                star5.id = "star_5";
+                star6.id = "star_6";
+                star7.id = "star_7";
+                star8.id = "star_8";
+                star9.id = "star_9";
+            };
+            star0.onclick = function(){
+                star0.src = "./star_yellow.png";
             };
             star1.onclick = function(){
                 star1.src = "./star_yellow.png";
+            };
+            star2.onclick = function(){
+                star2.src = "./star_yellow.png";
+            };
+            star3.onclick = function(){
+                star3.src = "./star_yellow.png";
+            };
+            star4.onclick = function(){
+                star4.src = "./star_yellow.png";
+            };
+            star5.onclick = function(){
+                star5.src = "./star_yellow.png";
+            };
+            star6.onclick = function(){
+                star6.src = "./star_yellow.png";
+            };
+            star7.onclick = function(){
+                star7.src = "./star_yellow.png";
+            };
+            star8.onclick = function(){
+                star8.src = "./star_yellow.png";
+            };
+            star9.onclick = function(){
+                star9.src = "./star_yellow.png";
             };
         };
     </script>
@@ -114,8 +163,9 @@
     <div id="flower39" class="pinkFlower"></div>
     <div id="flower40" class="pinkFlower"></div> -->
     <!-- 天空 -->
-    <!-- <p id="words">天空和草地间，<br>似乎缺了什么。</p> -->
-    <!-- <img id="star1" src="./star_gray.png" alt="star_gray">
+    <p id="words">天空和草地间，<br>似乎缺了什么。</p>
+    <img id="star0" src="./star_gray.png" alt="star_gray">
+    <img id="star1" src="./star_gray.png" alt="star_gray">
     <img id="star2" src="./star_gray.png" alt="star_gray">
     <img id="star3" src="./star_gray.png" alt="star_gray">
     <img id="star4" src="./star_gray.png" alt="star_gray">
@@ -124,14 +174,6 @@
     <img id="star7" src="./star_gray.png" alt="star_gray">
     <img id="star8" src="./star_gray.png" alt="star_gray">
     <img id="star9" src="./star_gray.png" alt="star_gray">
-    <img id="star10" src="./star_gray.png" alt="star_gray"> -->
-
-
-
-
-
-
-
 
     <div id="bars">
         <div id="bar1">1</div>
