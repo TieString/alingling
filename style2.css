@@ -656,8 +656,8 @@
 /* 星星变大 */
 #star_0{
     position: absolute;
-    left: 5%;
-    top: 5%;
+    left: 10px;
+    top: 10px;
     animation: star_0 3s;
     -webkit-animation: star_0 3s;
 }
@@ -671,72 +671,40 @@
 }
 #star_1{
     position: absolute;
-    left: 13%;
-    top: 10%;
+    left: 50px;
+    top: 100px;
     animation: star_0 5s;
     -webkit-animation: star_0 5s;
 }
 
 #star_2{
     position: absolute;
-    left: 18%;
-    top: 1%;
+    left: 140px;
+    top: 30px;
     animation: star_0 5s;
     -webkit-animation: star_0 5s;
 }
 
 #star_3{
     position: absolute;
-    left: 21%;
-    top: 9%;
+    left: 230px;
+    top: 50px;
     animation: star_0 5s;
     -webkit-animation: star_0 5s;
 }
 
 #star_4{
     position: absolute;
-    left: 5%;
-    top: 5%;
+    left: 350px;
+    top: 90px;
     animation: star_0 5s;
     -webkit-animation: star_0 5s;
 }
 
 #star_5{
     position: absolute;
-    left: 5%;
-    top: 5%;
-    animation: star_0 5s;
-    -webkit-animation: star_0 5s;
-}
-
-#star_6{
-    position: absolute;
-    left: 5%;
-    top: 5%;
-    animation: star_0 5s;
-    -webkit-animation: star_0 5s;
-}
-
-#star_7{
-    position: absolute;
-    left: 5%;
-    top: 5%;
-    animation: star_0 5s;
-    -webkit-animation: star_0 5s;
-}
-
-#star_8{
-    position: absolute;
-    left: 5%;
-    top: 5%;
-    animation: star_0 5s;
-    -webkit-animation: star_0 5s;
-}
-
-#star_9{
-    position: absolute;
-    left: 5%;
-    top: 5%;
+    left: 430px;
+    top: 15px;
     animation: star_0 5s;
     -webkit-animation: star_0 5s;
 }
