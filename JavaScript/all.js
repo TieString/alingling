@@ -60,6 +60,7 @@ window.onload=function(){
         bar44.id = "bar_44";
         bar45.id = "bar_45";
         bar46.id = "bar_46";
+        bar47.id = "bar_47";
         // 改变文字
         words.innerHTML = "是你。";
         // 更改样式

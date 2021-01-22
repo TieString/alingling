@@ -308,17 +308,17 @@
 }
 #bar_23{
     height: 1em;
-    background-color: #3c353d;
+    background-color: #3c343d;
     animation: bar_23 5s;
     -webkit-animation: bar_23 5s;
 }
 @keyframes bar_23{
     from{background-color: #f6fbff;}
-    to {background-color:  #3c353d;}
+    to {background-color:  #3c343d;}
 }
 @-webkit-keyframes bar_23{
     from {background-color: #f6fbff;}
-    to {background-color:  #3c353d;}
+    to {background-color:  #3c343d;}
 }
 #bar_24{
     height: 1em;
@@ -392,31 +392,31 @@
 }
 #bar_29{
     height: 1em;
-    background-color: #6F5058;
+    background-color: #714e57;
     animation: bar_29 5s;
     -webkit-animation: bar_29 5s;
 }
 @keyframes bar_29{
     from{background-color: #f9fcff;}
-    to {background-color:  #6F5058;}
+    to {background-color:  #714e57;}
 }
 @-webkit-keyframes bar_29{
     from {background-color: #f9fcff;}
-    to {background-color:  #6F5058;}
+    to {background-color:  #714e57;}
 }
 #bar_30{
     height: 1em;
-    background-color: #7F565E;
+    background-color: #7f555d;
     animation: bar_30 5s;
     -webkit-animation: bar_30 5s;
 }
 @keyframes bar_30{
     from{background-color: #f7fbff;}
-    to {background-color:  #7F565E;}
+    to {background-color:  #7f555d;}
 }
 @-webkit-keyframes bar_30{
     from {background-color: #f7fbff;}
-    to {background-color:  #7F565E;}
+    to {background-color:  #7f555d;}
 }
 #bar_31{
     height: 1em;
@@ -640,6 +640,20 @@
 }
 @-webkit-keyframes bar_46{
     from {background-color: #489957;}
+    to {background-color:  #ff6e57;}
+}
+#bar_47{
+    height: 1.1em;
+    background-color: #ff6e57;
+    animation: bar_47 5s;
+    -webkit-animation: bar_47 5s;
+}
+@keyframes bar_47{
+    from{background-color: #449453;}
+    to {background-color:  #ff6e57;}
+}
+@-webkit-keyframes bar_47{
+    from {background-color: #449453;}
     to {background-color:  #ff6e57;}
 }
 /* 字体样式改变 */
