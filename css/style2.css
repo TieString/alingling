@@ -532,17 +532,17 @@
 }
 #bar_39{
     height: 1em;
-    background-color: #EB796F;
+    background-color: #e87a71;
     animation: bar_39 5s;
     -webkit-animation: bar_39 5s;
 }
 @keyframes bar_39{
     from{background-color: #a6e7b2;}
-    to {background-color:  #EB796F;}
+    to {background-color:  #e87a71;}
 }
 @-webkit-keyframes bar_39{
     from {background-color: #a6e7b2;}
-    to {background-color:  #EB796F;}
+    to {background-color:  #e87a71;}
 }
 #bar_40{
     height: 1em;
@@ -560,31 +560,31 @@
 }
 #bar_41{
     height: 1em;
-    background-color: #F17669;
+    background-color: #f67669;
     animation: bar_41 5s;
     -webkit-animation: bar_41 5s;
 }
 @keyframes bar_41{
     from{background-color: #7bce8a;}
-    to {background-color:  #F17669;}
+    to {background-color:  #f67669;}
 }
 @-webkit-keyframes bar_41{
     from {background-color: #7bce8a;}
-    to {background-color:  #F17669;}
+    to {background-color:  #f67669;}
 }
 #bar_42{
     height: 1em;
-    background-color:#F77565;
+    background-color:#fa7365;
     animation: bar_42 5s;
     -webkit-animation: bar_42 5s;
 }
 @keyframes bar_42{
     from{background-color: #69bd78;}
-    to {background-color:  #F77565;}
+    to {background-color:  #fa7365;}
 }
 @-webkit-keyframes bar_42{
     from {background-color: #69bd78;}
-    to {background-color:  #F77565;}
+    to {background-color:  #fa7365;}
 }
 #bar_43{
     height: 1em;
