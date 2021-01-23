@@ -6,107 +6,80 @@
     <title>Ling</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/style2.css">
-    <script src="./JavaScript/all.js"></script>
+    <script src="./JavaScript/script.js"></script>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            // 隐藏色条和文字
+            $(".bar").hide();
+            $("#words").hide();
+            // 淡入色条和文字
+            $(".bar").fadeIn(1000, function(){
+                $("#words").fadeIn(1500);
+            });
+        });
+    </script>
     <style>
         body{
             margin: 0;
             padding: 0;
+            /* 预设背景颜色 从上到下蓝白绿 */
+            background: linear-gradient(#0099ff,#f1f9ff,#ffffff,#ffffff,#449453)
         }
     </style>
 </head>
 <body>
-    <!-- <div id="flower1" class="redFlower"></div>
-    <div id="flower2" class="redFlower"></div>
-    <div id="flower3" class="redFlower"></div>
-    <div id="flower4" class="redFlower"></div>
-    <div id="flower5" class="redFlower"></div>
-    <div id="flower6" class="redFlower"></div>
-    <div id="flower7" class="redFlower"></div>
-    <div id="flower8" class="redFlower"></div>
-    <div id="flower9" class="redFlower"></div>
-    <div id="flower10" class="redFlower"></div>
-    <div id="flower11" class="redFlower"></div> -->
-    <!-- 粉色小花朵 -->
-    <!-- <div id="flower12" class="pinkFlower"></div>
-    <div id="flower13" class="pinkFlower"></div>
-    <div id="flower14" class="pinkFlower"></div>
-    <div id="flower15" class="pinkFlower"></div>
-    <div id="flower16" class="pinkFlower"></div>
-    <div id="flower17" class="pinkFlower"></div>
-    <div id="flower18" class="pinkFlower"></div>
-    <div id="flower19" class="pinkFlower"></div>
-    <div id="flower20" class="pinkFlower"></div>
-    <div id="flower21" class="pinkFlower"></div>
-    <div id="flower22" class="pinkFlower"></div>
-    <div id="flower23" class="pinkFlower"></div>
-    <div id="flower24" class="pinkFlower"></div>
-    <div id="flower25" class="pinkFlower"></div>
-    <div id="flower26" class="pinkFlower"></div>
-    <div id="flower27" class="pinkFlower"></div>
-    <div id="flower28" class="pinkFlower"></div>
-    <div id="flower29" class="pinkFlower"></div>
-    <div id="flower30" class="pinkFlower"></div>
-    <div id="flower31" class="pinkFlower"></div>
-    <div id="flower32" class="pinkFlower"></div>
-    <div id="flower33" class="pinkFlower"></div>
-    <div id="flower34" class="pinkFlower"></div>
-    <div id="flower35" class="pinkFlower"></div>
-    <div id="flower36" class="pinkFlower"></div>
-    <div id="flower37" class="pinkFlower"></div>
-    <div id="flower38" class="pinkFlower"></div>
-    <div id="flower39" class="pinkFlower"></div>
-    <div id="flower40" class="pinkFlower"></div> -->
     <!-- 天空 -->
     <p id="words">天空和草地间，<br>似乎缺了些。</p>
     <div id="bars">
-        <div id="bar1"></div>
-        <div id="bar2"></div>
-        <div id="bar3"></div>
-        <div id="bar4"></div>
-        <div id="bar5"></div>
-        <div id="bar6"></div>
-        <div id="bar7"></div>
-        <div id="bar8"></div>
-        <div id="bar9"></div>
-        <div id="bar10"></div>
-        <div id="bar11"></div>
-        <div id="bar12"></div>
-        <div id="bar13"></div>
-        <div id="bar14"></div>
-        <div id="bar15"></div>
-        <div id="bar16"></div>
-        <div id="bar17"></div>
-        <div id="bar18"></div>
-        <div id="bar19"></div>
-        <div id="bar20"></div>
-        <div id="bar21"></div>
-        <div id="bar22"></div>
-        <div id="bar23"></div>
-        <div id="bar24"></div>
-        <div id="bar25"></div>
-        <div id="bar26"></div>
-        <div id="bar27"></div>
-        <div id="bar28"></div>
-        <div id="bar29"></div>
-        <div id="bar30"></div>
+        <div class="bar" id="bar1"></div>
+        <div class="bar" id="bar2"></div>
+        <div class="bar" id="bar3"></div>
+        <div class="bar" id="bar4"></div>
+        <div class="bar" id="bar5"></div>
+        <div class="bar" id="bar6"></div>
+        <div class="bar" id="bar7"></div>
+        <div class="bar" id="bar8"></div>
+        <div class="bar" id="bar9"></div>
+        <div class="bar" id="bar10"></div>
+        <div class="bar" id="bar11"></div>
+        <div class="bar" id="bar12"></div>
+        <div class="bar" id="bar13"></div>
+        <div class="bar" id="bar14"></div>
+        <div class="bar" id="bar15"></div>
+        <div class="bar" id="bar16"></div>
+        <div class="bar" id="bar17"></div>
+        <div class="bar" id="bar18"></div>
+        <div class="bar" id="bar19"></div>
+        <div class="bar" id="bar20"></div>
+        <div class="bar" id="bar21"></div>
+        <div class="bar" id="bar22"></div>
+        <div class="bar" id="bar23"></div>
+        <div class="bar" id="bar24"></div>
+        <div class="bar" id="bar25"></div>
+        <div class="bar" id="bar26"></div>
+        <div class="bar" id="bar27"></div>
+        <div class="bar" id="bar28"></div>
+        <div class="bar" id="bar29"></div>
+        <div class="bar" id="bar30"></div>
         <!-- 草地 -->
-        <div id="bar31"></div>
-        <div id="bar32"></div>
-        <div id="bar33"></div>
-        <div id="bar34"></div>
-        <div id="bar35"></div>
-        <div id="bar36"></div>
-        <div id="bar37"></div>
-        <div id="bar38"></div>
-        <div id="bar39"></div>
-        <div id="bar40"></div>
-        <div id="bar41"></div>
-        <div id="bar42"></div>
-        <div id="bar43"></div>
-        <div id="bar44"></div>
-        <div id="bar45"></div>
-        <div id="bar46"></div>
-        <div id="bar47"></div>
+        <div class="bar" id="bar31"></div>
+        <div class="bar" id="bar32"></div>
+        <div class="bar" id="bar33"></div>
+        <div class="bar" id="bar34"></div>
+        <div class="bar" id="bar35"></div>
+        <div class="bar" id="bar36"></div>
+        <div class="bar" id="bar37"></div>
+        <div class="bar" id="bar38"></div>
+        <div class="bar" id="bar39"></div>
+        <div class="bar" id="bar40"></div>
+        <div class="bar" id="bar41"></div>
+        <div class="bar" id="bar42"></div>
+        <div class="bar" id="bar43"></div>
+        <div class="bar" id="bar44"></div>
+        <div class="bar" id="bar45"></div>
+        <div class="bar" id="bar46"></div>
+        <div class="bar" id="bar47"></div>
     </div>
     <!-- 一个引起变化的箭头 -->
     <nav id="arrow">></nav>

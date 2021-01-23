@@ -1,7 +1,7 @@
 window.onload=function(){
     // 获取箭头
-    
     var arrow = document.getElementById("arrow");
+
     var words = document.getElementById("words");
     var star0 = document.getElementById("star0");
     var star1 = document.getElementById("star1");
@@ -67,54 +67,5 @@ window.onload=function(){
         words.id = "word";
         // 箭头消失
         arrow.innerHTML = "";
-        // 星星出现
-        star0.id = "star_0";
-        star1.id = "star_1";
-        star2.id = "star_2";
-        star3.id = "star_3";
-        star4.id = "star_4";
-        star5.id = "star_5";
-        star6.id = "star_6";
-        star7.id = "star_7";
-        star8.id = "star_8";
-        star9.id = "star_9";
-    };
-    var flag = 1, countdown = 5;
-    star0.onclick = function(){
-        star0.src = "./star_yellow.png";
-        // 点亮顺序正确
-        if(flag == 3){
-
-        }
-    };
-    star1.onclick = function(){
-        star1.src = "./star_yellow.png";
-        flag = 0;
-    };
-    star2.onclick = function(){
-        star2.src = "./star_yellow.png";
-        if(flag == 0){
-
-        }
-        else if(flag == 2){
-            flag++;
-        }
-    };
-    star3.onclick = function(){
-        star3.src = "./star_yellow.png";
-        flag = 0;
-    };
-    star4.onclick = function(){
-        star4.src = "./star_yellow.png";
-        flag = 0;
-    };
-    star5.onclick = function(){
-        star5.src = "./star_yellow.png";
-        if(flag == 0){
-
-        }
-        else if(flag == 1){
-            flag++;
-        }
     };
 };

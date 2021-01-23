@@ -1,5 +1,6 @@
 #words{
-    font-size: 20px;
+    font-size: 21px;
+    font-weight: bold;
     color: #5b5d5f;
     text-align: center;
     position: absolute;
@@ -205,66 +206,4 @@
     position: absolute;
     right: 45px;
     bottom: 50px;
-}
-
-/* 星星样式 */
-#star0{
-    height: 0px;
-    position: absolute;
-    left: 5%;
-    top: 5%;
-}
-#star1{
-    height: 0px;
-    position: absolute;
-    left: 10%;
-    top: 5%;
-}
-#star2{
-    height: 0px;
-    position: absolute;
-    left: 5%;
-    top: 5%;
-}
-#star3{
-    height: 0px;
-    position: absolute;
-    left: 5%;
-    top: 5%;
-}
-#star4{
-    height: 0px;
-    position: absolute;
-    left: 5%;
-    top: 5%;
-}
-#star5{
-    height: 0px;
-    position: absolute;
-    left: 5%;
-    top: 5%;
-}
-#star6{
-    height: 0px;
-    position: absolute;
-    left: 5%;
-    top: 5%;
-}
-#star7{
-    height: 0px;
-    position: absolute;
-    left: 5%;
-    top: 5%;
-}
-#star8{
-    height: 0px;
-    position: absolute;
-    left: 5%;
-    top: 5%;
-}
-#star9{
-    height: 0px;
-    position: absolute;
-    left: 5%;
-    top: 5%;
 }
