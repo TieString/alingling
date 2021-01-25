@@ -659,8 +659,8 @@
 /* 字体样式改变 */
 #word{
     font-size: 21px;
-    font-weight: bold;
-    color: ivory;
+    font-weight: 500;
+    color: #dbdbdb;
     text-align: center;
     position: absolute;
     top: 50%;

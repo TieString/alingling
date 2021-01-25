@@ -1,19 +1,29 @@
 window.onload=function(){
+    // jQuery
+    $(document).ready(function(){
+        // 开始动画
+        // 隐藏色条和文字
+        $(".bar").hide();
+        $("#words").hide();
+        $("#arrow").hide();
+        // 淡入色条和文字
+        $(".bar").fadeIn(1000, function(){
+            $("#words").fadeIn(1500);
+            $("#arrow").fadeIn(1000);
+        });
+        $("#arrow").click(function (e) { 
+            e.preventDefault();
+            $(this).fadeOut(1500);
+            $("#words").hide();
+            $("#words").fadeIn(5000);
+        });
+    });
     // 获取箭头
     var arrow = document.getElementById("arrow");
-
     var words = document.getElementById("words");
-    var star0 = document.getElementById("star0");
-    var star1 = document.getElementById("star1");
-    var star2 = document.getElementById("star2");
-    var star3 = document.getElementById("star3");
-    var star4 = document.getElementById("star4");
-    var star5 = document.getElementById("star5");
-    var star6 = document.getElementById("star6");
-    var star7 = document.getElementById("star7");
-    var star8 = document.getElementById("star8");
-    var star9 = document.getElementById("star9");
+    // 改变id
     arrow.onclick = function(){
+        // 色条颜色变化
         bar1.id = "bar_1";
         bar2.id = "bar_2";
         bar3.id = "bar_3";
@@ -60,12 +70,9 @@ window.onload=function(){
         bar44.id = "bar_44";
         bar45.id = "bar_45";
         bar46.id = "bar_46";
-        bar47.id = "bar_47";
-        // 改变文字
-        words.innerHTML = "是你。";
-        // 更改样式
+        bar47.id = "bar_47"; 
+        // 更改文字样式
         words.id = "word";
-        // 箭头消失
-        arrow.innerHTML = "";
+        words.innerHTML = "是你。"
     };
 };
