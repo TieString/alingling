@@ -15,7 +15,10 @@ window.onload=function(){
             e.preventDefault();
             $(this).fadeOut(1500);
             $("#words").hide();
-            $("#words").fadeIn(5000);
+            $("#words").animate({
+                
+            });
+            $("#words").fadeIn(6000);
         });
     });
     // 获取箭头

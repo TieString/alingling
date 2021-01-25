@@ -25,14 +25,14 @@ a:link {
 }
 a:visited {
     text-decoration:none;
-    color: rgb(66, 66, 66);
 }
 a:hover {
     text-decoration:none;
+    color: rgb(66, 66, 66);
 }
 a:active {
     text-decoration:none;
-    color: rgb(66, 66, 66);
+    color: rgb(163, 163, 163);
 }
 /* 渐变天空样式 */
 #bar1{
