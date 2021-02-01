@@ -15,8 +15,8 @@
     color: rgb(82, 82, 82);
     float: right;
     position: absolute;
-    right: 45px;
-    bottom: 50px;
+    right: 90px;
+    bottom: 45px;
 }
 /* 设置箭头链接样式 */
 a:link {
@@ -28,11 +28,12 @@ a:visited {
 }
 a:hover {
     text-decoration:none;
+    text-shadow: 10px 0 1px gray;
     color: rgb(66, 66, 66);
 }
 a:active {
     text-decoration:none;
-    color: rgb(163, 163, 163);
+    color: rgb(136, 136, 136);
 }
 /* 渐变天空样式 */
 #bar1{

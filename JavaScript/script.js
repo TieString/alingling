@@ -1,4 +1,8 @@
 window.onload=function(){
+    if ("ontouchstart" in document) {
+        document.getElementById("mian").style.display="none";
+        document.getElementById("log").style.display="block";
+    }
     // jQuery
     $(document).ready(function(){
         // 开始动画
@@ -13,7 +17,10 @@ window.onload=function(){
         });
         $("#arrow").click(function (e) { 
             e.preventDefault();
-            $(this).fadeOut(1500);
+            $(this).animate({
+                right:'-4px',
+                opacity:'0'
+            },1000);
             $("#words").hide();
             $("#words").fadeIn(5000);
         });
