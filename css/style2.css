@@ -1,8 +1,8 @@
 #bar_1{
     height: 1em;
     background-color: #050505;
-    animation: bar_1 5s;
-    -webkit-animation: bar_1 5s;
+    animation: bar_1 7s;
+    -webkit-animation: bar_1 7s;
 }
 @keyframes bar_1{
     from{background-color: #0099ff;}
@@ -15,8 +15,8 @@
 #bar_2{
     height: 1em;
     background-color: #0a0909;
-    animation: bar_2 5s;
-    -webkit-animation: bar_2 5s;
+    animation: bar_2 7s;
+    -webkit-animation: bar_2 7s;
 }
 @keyframes bar_2{
     from{background-color: #28a8fd;}
@@ -29,8 +29,8 @@
 #bar_3{
     height: 1em;
     background-color: #0c0a0c;
-    animation: bar_3 5s;
-    -webkit-animation: bar_3 5s;
+    animation: bar_3 7s;
+    -webkit-animation: bar_3 7s;
 }
 @keyframes bar_3{
     from{background-color: #47b6ff;}
@@ -43,8 +43,8 @@
 #bar_4{
     height: 1em;
     background-color: #0e0b0e;
-    animation: bar_4 5s;
-    -webkit-animation: bar_4 5s;
+    animation: bar_4 7s;
+    -webkit-animation: bar_4 7s;
 }
 @keyframes bar_4{
     from{background-color: #58bcff;}
@@ -57,8 +57,8 @@
 #bar_5{
     height: 1em;
     background-color: #0f0d0f;
-    animation: bar_5 5s;
-    -webkit-animation: bar_5 5s;
+    animation: bar_5 7s;
+    -webkit-animation: bar_5 7s;
 }
 @keyframes bar_5{
     from{background-color: #75c8ff;}
@@ -71,8 +71,8 @@
 #bar_6{
     height: 1em;
     background-color: #110e11;
-    animation: bar_6 5s;
-    -webkit-animation: bar_6 5s;
+    animation: bar_6 7s;
+    -webkit-animation: bar_6 7s;
 }
 @keyframes bar_6{
     from{background-color: #90d3ff;}
@@ -85,8 +85,8 @@
 #bar_7{
     height: 1em;
     background-color: #131013;
-    animation: bar_7 5s;
-    -webkit-animation: bar_7 5s;
+    animation: bar_7 7s;
+    -webkit-animation: bar_7 7s;
 }
 @keyframes bar_7{
     from{background-color: #a0d9ff;}
@@ -99,8 +99,8 @@
 #bar_8{
     height: 1em;
     background-color: #161216;
-    animation: bar_8 5s;
-    -webkit-animation: bar_8 5s;
+    animation: bar_8 7s;
+    -webkit-animation: bar_8 7s;
 }
 @keyframes bar_8{
     from{background-color: #aeddfc;}
@@ -113,8 +113,8 @@
 #bar_9{
     height: 1em;
     background-color: #181318;
-    animation: bar_9 5s;
-    -webkit-animation: bar_9 5s;
+    animation: bar_9 7s;
+    -webkit-animation: bar_9 7s;
 }
 @keyframes bar_9{
     from{background-color: #b7e1fd;}
@@ -127,8 +127,8 @@
 #bar_10{
     height: 1em;
     background-color: #1a151a;
-    animation: bar_10 5s;
-    -webkit-animation: bar_10 5s;
+    animation: bar_10 7s;
+    -webkit-animation: bar_10 7s;
 }
 @keyframes bar_10{
     from{background-color: #c1e6ff;}
@@ -141,8 +141,8 @@
 #bar_11{
     height: 1em;
     background-color: #1d171d;
-    animation: bar_11 5s;
-    -webkit-animation: bar_11 5s;
+    animation: bar_11 7s;
+    -webkit-animation: bar_11 7s;
 }
 @keyframes bar_11{
     from{background-color: #c9e9ff;}
@@ -155,8 +155,8 @@
 #bar_12{
     height: 1em;
     background-color: #1f1a1f;
-    animation: bar_12 5s;
-    -webkit-animation: bar_12 5s;
+    animation: bar_12 7s;
+    -webkit-animation: bar_12 7s;
 }
 @keyframes bar_12{
     from{background-color: #d2eeff;}
@@ -169,8 +169,8 @@
 #bar_13{
     height: 1em;
     background-color: #221d22;
-    animation: bar_13 5s;
-    -webkit-animation: bar_13 5s;
+    animation: bar_13 7s;
+    -webkit-animation: bar_13 7s;
 }
 @keyframes bar_13{
     from{background-color: #dbf1ff;}
@@ -183,8 +183,8 @@
 #bar_14{
     height: 1em;
     background-color: #241f25;
-    animation: bar_14 5s;
-    -webkit-animation: bar_14 5s;
+    animation: bar_14 7s;
+    -webkit-animation: bar_14 7s;
 }
 @keyframes bar_14{
     from{background-color: #e3f4ff;}
@@ -197,8 +197,8 @@
 #bar_15{
     height: 1em;
     background-color: #282229;
-    animation: bar_15 5s;
-    -webkit-animation: bar_15 5s;
+    animation: bar_15 7s;
+    -webkit-animation: bar_15 7s;
 }
 @keyframes bar_15{
     from{background-color: #e8f7ff;}
@@ -211,8 +211,8 @@
 #bar_16{
     height: 1em;
     background-color: #2b252c;
-    animation: bar_16 5s;
-    -webkit-animation: bar_16 5s;
+    animation: bar_16 7s;
+    -webkit-animation: bar_16 7s;
 }
 @keyframes bar_16{
     from{background-color: #edf9ff;}
@@ -225,8 +225,8 @@
 #bar_17{
     height: 1em;
     background-color: #2d272e;
-    animation: bar_17 5s;
-    -webkit-animation: bar_17 5s;
+    animation: bar_17 7s;
+    -webkit-animation: bar_17 7s;
 }
 @keyframes bar_17{
     from{background-color: #f0faff;}
@@ -239,8 +239,8 @@
 #bar_18{
     height: 1em;
     background-color: #302931;
-    animation: bar_18 5s;
-    -webkit-animation: bar_18 5s;
+    animation: bar_18 7s;
+    -webkit-animation: bar_18 7s;
 }
 @keyframes bar_18{
     from{background-color: #f4faff;}
@@ -253,8 +253,8 @@
 #bar_19{
     height: 1em;
     background-color: #332C34;
-    animation: bar_19 5s;
-    -webkit-animation: bar_19 5s;
+    animation: bar_19 7s;
+    -webkit-animation: bar_19 7s;
 }
 @keyframes bar_19{
     from{background-color: #f7fbff;}
@@ -267,8 +267,8 @@
 #bar_20{
     height: 1em;
     background-color: #352E36;
-    animation: bar_20 5s;
-    -webkit-animation: bar_20 5s;
+    animation: bar_20 7s;
+    -webkit-animation: bar_20 7s;
 }
 @keyframes bar_20{
     from{background-color: #f6fbff;}
@@ -281,8 +281,8 @@
 #bar_21{
     height: 1em;
     background-color: #373038;
-    animation: bar_21 5s;
-    -webkit-animation: bar_21 5s;
+    animation: bar_21 7s;
+    -webkit-animation: bar_21 7s;
 }
 @keyframes bar_21{
     from{background-color: #f6fbff;}
@@ -295,8 +295,8 @@
 #bar_22{
     height: 1em;
     background-color: #39323A;
-    animation: bar_22 5s;
-    -webkit-animation: bar_22 5s;
+    animation: bar_22 7s;
+    -webkit-animation: bar_22 7s;
 }
 @keyframes bar_22{
     from{background-color: #f6fbff;}
@@ -309,8 +309,8 @@
 #bar_23{
     height: 1em;
     background-color: #3c343d;
-    animation: bar_23 5s;
-    -webkit-animation: bar_23 5s;
+    animation: bar_23 7s;
+    -webkit-animation: bar_23 7s;
 }
 @keyframes bar_23{
     from{background-color: #f6fbff;}
@@ -323,8 +323,8 @@
 #bar_24{
     height: 1em;
     background-color: #413740;
-    animation: bar_24 5s;
-    -webkit-animation: bar_24 5s;
+    animation: bar_24 7s;
+    -webkit-animation: bar_24 7s;
 }
 @keyframes bar_24{
     from{background-color: #f6fbff;}
@@ -337,8 +337,8 @@
 #bar_25{
     height: 1em;
     background-color: #473A44;
-    animation: bar_25 5s;
-    -webkit-animation: bar_25 5s;
+    animation: bar_25 7s;
+    -webkit-animation: bar_25 7s;
 }
 @keyframes bar_25{
     from{background-color: #f6fbff;}
@@ -351,8 +351,8 @@
 #bar_26{
     height: 1em;
     background-color: #4E3E48;
-    animation: bar_26 5s;
-    -webkit-animation: bar_26 5s;
+    animation: bar_26 7s;
+    -webkit-animation: bar_26 7s;
 }
 @keyframes bar_26{
     from{background-color: #f6fbff;}
@@ -365,8 +365,8 @@
 #bar_27{
     height: 1em;
     background-color: #58434C;
-    animation: bar_27 5s;
-    -webkit-animation: bar_27 5s;
+    animation: bar_27 7s;
+    -webkit-animation: bar_27 7s;
 }
 @keyframes bar_27{
     from{background-color: #f6fbff;}
@@ -379,8 +379,8 @@
 #bar_28{
     height: 1em;
     background-color: #634851;
-    animation: bar_28 5s;
-    -webkit-animation: bar_28 5s;
+    animation: bar_28 7s;
+    -webkit-animation: bar_28 7s;
 }
 @keyframes bar_28{
     from{background-color: #f6fbff;}
@@ -393,8 +393,8 @@
 #bar_29{
     height: 1em;
     background-color: #714e57;
-    animation: bar_29 5s;
-    -webkit-animation: bar_29 5s;
+    animation: bar_29 7s;
+    -webkit-animation: bar_29 7s;
 }
 @keyframes bar_29{
     from{background-color: #f9fcff;}
@@ -407,8 +407,8 @@
 #bar_30{
     height: 1em;
     background-color: #7f555d;
-    animation: bar_30 5s;
-    -webkit-animation: bar_30 5s;
+    animation: bar_30 7s;
+    -webkit-animation: bar_30 7s;
 }
 @keyframes bar_30{
     from{background-color: #f7fbff;}
@@ -421,8 +421,8 @@
 #bar_31{
     height: 1em;
     background-color: #8F5D63;
-    animation: bar_31 5s;
-    -webkit-animation: bar_31 5s;
+    animation: bar_31 7s;
+    -webkit-animation: bar_31 7s;
 }
 @keyframes bar_31{
     from{background-color: #f7fcf9;}
@@ -435,8 +435,8 @@
 #bar_32{
     height: 1em;
     background-color: #A06469;
-    animation: bar_32 5s;
-    -webkit-animation: bar_32 5s;
+    animation: bar_32 7s;
+    -webkit-animation: bar_32 7s;
 }
 @keyframes bar_32{
     from{background-color: #f7fdf9;}
@@ -449,8 +449,8 @@
 #bar_33{
     height: 1em;
     background-color: #AE696E;
-    animation: bar_33 5s;
-    -webkit-animation: bar_33 5s;
+    animation: bar_33 7s;
+    -webkit-animation: bar_33 7s;
 }
 @keyframes bar_33{
     from{background-color: #f6fff8;}
@@ -463,8 +463,8 @@
 #bar_34{
     height: 1em;
     background-color: #BA6E72;
-    animation: bar_34 5s;
-    -webkit-animation: bar_34 5s;
+    animation: bar_34 7s;
+    -webkit-animation: bar_34 7s;
 }
 @keyframes bar_34{
     from{background-color: #f6fff8;}
@@ -477,8 +477,8 @@
 #bar_35{
     height: 1em;
     background-color: #C97374;
-    animation: bar_35 5s;
-    -webkit-animation: bar_35 5s;
+    animation: bar_35 7s;
+    -webkit-animation: bar_35 7s;
 }
 @keyframes bar_35{
     from{background-color: #e4ffe8;}
@@ -491,8 +491,8 @@
 #bar_36{
     height: 1em;
     background-color: #D47674;
-    animation: bar_36 5s;
-    -webkit-animation: bar_36 5s;
+    animation: bar_36 7s;
+    -webkit-animation: bar_36 7s;
 }
 @keyframes bar_36{
     from{background-color: #d9fde0;}
@@ -505,22 +505,22 @@
 #bar_37{
     height: 1em;
     background-color: #DC7974;
-    animation: bar_37 5s;
-    -webkit-animation: bar_37 5s;
+    animation: bar_37 7s;
+    -webkit-animation: bar_37 7s;
 }
 @keyframes bar_37{
-    from{background-color: #c8f7d1;}
+    from{background-color:#c9f8d2;}
     to {background-color:  #DC7974;}
 }
 @-webkit-keyframes bar_37{
-    from {background-color: #c8f7d1;}
+    from {background-color: #c9f8d2;}
     to {background-color:  #DC7974;}
 }
 #bar_38{
     height: 1em;
     background-color: #E37973;
-    animation: bar_38 5s;
-    -webkit-animation: bar_38 5s;
+    animation: bar_38 7s;
+    -webkit-animation: bar_38 7s;
 }
 @keyframes bar_38{
     from{background-color: #b5f0c0;}
@@ -533,8 +533,8 @@
 #bar_39{
     height: 1em;
     background-color: #e87a71;
-    animation: bar_39 5s;
-    -webkit-animation: bar_39 5s;
+    animation: bar_39 7s;
+    -webkit-animation: bar_39 7s;
 }
 @keyframes bar_39{
     from{background-color: #a6e7b2;}
@@ -547,22 +547,22 @@
 #bar_40{
     height: 1em;
     background-color: #EF796D;
-    animation: bar_40 5s;
-    -webkit-animation: bar_40 5s;
+    animation: bar_40 7s;
+    -webkit-animation: bar_40 7s;
 }
 @keyframes bar_40{
-    from{background-color: #8ddd9c;}
+    from{background-color: #90dc9e;}
     to {background-color:  #EF796D;}
 }
 @-webkit-keyframes bar_40{
-    from {background-color: #8ddd9c;}
+    from {background-color: #90dc9e;}
     to {background-color:  #EF796D;}
 }
 #bar_41{
     height: 1em;
     background-color: #f67669;
-    animation: bar_41 5s;
-    -webkit-animation: bar_41 5s;
+    animation: bar_41 7s;
+    -webkit-animation: bar_41 7s;
 }
 @keyframes bar_41{
     from{background-color: #7bce8a;}
@@ -575,64 +575,64 @@
 #bar_42{
     height: 1em;
     background-color:#fa7365;
-    animation: bar_42 5s;
-    -webkit-animation: bar_42 5s;
+    animation: bar_42 7s;
+    -webkit-animation: bar_42 7s;
 }
 @keyframes bar_42{
-    from{background-color: #69bd78;}
+    from{background-color: #6dc37c;}
     to {background-color:  #fa7365;}
 }
 @-webkit-keyframes bar_42{
-    from {background-color: #69bd78;}
+    from {background-color:#6dc37c;}
     to {background-color:  #fa7365;}
 }
 #bar_43{
     height: 1em;
     background-color: #FB7460;
-    animation: bar_43 5s;
-    -webkit-animation: bar_43 5s;
+    animation: bar_43 7s;
+    -webkit-animation: bar_43 7s;
 }
 @keyframes bar_43{
-    from{background-color: #60b36f;}
+    from{background-color: #62b771;}
     to {background-color:  #FB7460;}
 }
 @-webkit-keyframes bar_43{
-    from {background-color: #60b36f;}
+    from {background-color: #62b771;}
     to {background-color:  #FB7460;}
 }
 #bar_44{
     height: 1em;
     background-color: #ff725c;
-    animation: bar_44 5s;
-    -webkit-animation: bar_44 5s;
+    animation: bar_44 7s;
+    -webkit-animation: bar_44 7s;
 }
 @keyframes bar_44{
-    from{background-color: #55a764;}
+    from{background-color: #5aac69;}
     to {background-color:  #ff725c;}
 }
 @-webkit-keyframes bar_44{
-    from {background-color: #55a764;}
+    from {background-color:#5aac69;}
     to {background-color:  #ff725c;}
 }
 #bar_45{
     height: 1em;
     background-color: #ff705a;
-    animation: bar_45 5s;
-    -webkit-animation: bar_45 5s;
+    animation: bar_45 7s;
+    -webkit-animation: bar_45 7s;
 }
 @keyframes bar_45{
-    from{background-color: #51a05f;}
+    from{background-color:#51a25f;}
     to {background-color:  #ff705a;}
 }
 @-webkit-keyframes bar_45{
-    from {background-color: #51a05f;}
+    from {background-color:#51a25f;}
     to {background-color:  #ff705a;}
 }
 #bar_46{
     height: 1em;
     background-color: #ff6e57;
-    animation: bar_46 5s;
-    -webkit-animation: bar_46 5s;
+    animation: bar_46 7s;
+    -webkit-animation: bar_46 7s;
 }
 @keyframes bar_46{
     from{background-color: #489957;}
@@ -645,8 +645,8 @@
 #bar_47{
     height: 1.1em;
     background-color: #ff6e57;
-    animation: bar_47 5s;
-    -webkit-animation: bar_47 5s;
+    animation: bar_47 7s;
+    -webkit-animation: bar_47 7s;
 }
 @keyframes bar_47{
     from{background-color: #449453;}
