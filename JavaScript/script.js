@@ -1,6 +1,7 @@
 window.onload=function(){
     if ("ontouchstart" in document) {
-        document.getElementById("mian").style.display="none";
+        document.getElementById("main").style.display="none";
+        document.getElementById("main").style.borderColor="white";
         document.getElementById("log").style.display="block";
     }
     // jQuery
