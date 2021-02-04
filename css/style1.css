@@ -28,7 +28,6 @@ a:visited {
 }
 a:hover {
     text-decoration:none;
-    text-shadow: 10px 0 1px gray;
     color: rgb(66, 66, 66);
 }
 a:active {
