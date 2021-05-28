@@ -82,5 +82,79 @@ window.onload=function(){
         // 更改文字样式
         words.id = "word";
         words.innerHTML = "是你。"
+        initFires();
+        
     };
+    
+
+    function initFires(){
+        let canvas = document.getElementById("canvas");
+        let width = window.innerWidth;
+        let height = window.innerHeight;
+        canvas.width = width;
+        canvas.height = height;
+        let balls = [];
+        let timer = null;
+        let count = 0;
+        let ballsAll = 1;
+
+        timer = setInterval(() => {
+            if(count == ballsAll){
+                clearInterval(timer);
+                count = null;
+
+            }
+            else{
+                count++;
+                balls.push(
+                    // 添加每次创建的小球实例
+                    new Ball({
+                        r : 3,
+                        x : Math.random() * width/3 + width/3,
+                        y : height,
+                        vx : Math.random() * 2 - 1,
+                        vy : - Math.random() * 2 - 7,
+                        end(){}
+                    })
+                );
+            }
+        }, 500);
+        loop();
+        function loop(){
+            // 开启一个实时监听的函数
+            for(let i=0; i < balls.length; i++){
+                balls[i].update();
+                balls[i].render();
+            }
+            requestAnimationFrame(loop);
+        }
+        class Ball{
+            constructor(options){
+                this.settings = Object.assign({
+                    color:"yellow",
+                    r:5,
+                    g:0.1,
+                    end(){}
+                },options);
+                for(let attr in this.settings){
+                    this[attr] = this.settings[attr];
+                }
+            }
+            // 更新
+            update(){
+                this.x += this.vx;
+                this.y += this.vy;
+                this.y += this.g;
+            }
+            // 重新绘制
+            render(){
+                ctx.beginPath();
+                ctx.fillStyle = this.color;
+                ctx.arc(this.x, this.y, this.r, 0, 360 * Math.PI / 180);
+                ctx.closePath();
+                ctx.fill();
+                this.end();
+            }
+        }
+    }
 };

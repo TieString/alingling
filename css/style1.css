@@ -224,3 +224,11 @@ a:active {
     height: 1.1em;
     background-color: #449453;
 }
+
+#fireWorks{
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    border: black solid 1px;
+    background-color: #b82a1e;
+}
